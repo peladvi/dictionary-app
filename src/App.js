@@ -7,6 +7,12 @@ function App() {
       <div className="container">
         <header className="App-header">Hello from Dictionary 🙋‍♀️</header>
         <Search />
+        <footer>
+          Coded by{" "}
+          <a href="https://github.com/peladvi/dictionary-app">
+            Paula Ladwiniec
+          </a>
+        </footer>
       </div>
     </div>
   );
