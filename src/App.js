@@ -5,8 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Hello from Dictionary 🙋‍♀️</header>
-        <Search />
+        <section>
+          <header className="App-header">Hello from Dictionary 🙋‍♀️</header>
+          <Search />
+        </section>
         <footer>
           Coded by{" "}
           <a href="https://github.com/peladvi/dictionary-app">
