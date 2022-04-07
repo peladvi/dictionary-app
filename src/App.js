@@ -1,11 +1,12 @@
 import "./App.css";
 import Search from "./Search.js";
+import background from "./nature.jpg";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <section>
+        <section style={{ background: `url(${background})` }}>
           <header className="App-header">Hello from Dictionary 🙋‍♀️</header>
           <Search />
         </section>
