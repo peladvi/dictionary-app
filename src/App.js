@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <header className="App-header">Dictionary</header>
         <section style={{ background: `url(${background})` }}>
-          <header className="App-header">Hello from Dictionary 🙋‍♀️</header>
           <Search />
         </section>
         <footer>

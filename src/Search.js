@@ -38,6 +38,7 @@ export default function Search() {
           <form onSubmit={searchFor}>
             <input type="search" onChange={handleSubmit} />
           </form>
+          <small>suggested words: forest, nature, leaves etc. </small>
         </section>
         <Results results={results} />
       </div>
