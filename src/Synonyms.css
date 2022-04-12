@@ -4,7 +4,15 @@
 }
 .Synonyms li {
   display: inline-block;
-  padding-right: 15px;
+  padding-right: 18px;
   font-weight: bold;
-  color: red;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #295f4e;
+  transition: all 200ms ease-in-out;
+  margin: 10px;
+}
+.Synonyms li:hover {
+  background-color: #295f4e;
 }

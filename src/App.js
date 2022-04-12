@@ -11,10 +11,14 @@ function App() {
           <Search />
         </section>
         <footer>
-          Coded by{" "}
-          <a href="https://github.com/peladvi/dictionary-app">
-            Paula Ladwiniec
+          <a
+            href="https://github.com/peladvi/dictionary-app"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Open-source code
           </a>
+          , by Paula Ladwiniec
         </footer>
       </div>
     </div>

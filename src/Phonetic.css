@@ -2,9 +2,12 @@
   height: 50px;
 }
 .Phonetic a {
-  text-decoration: none;
   padding: 10px 15px;
   border-radius: 25px;
-  border: 1px solid grey;
+  border: 1px solid #295f4e;
   margin-left: 10px;
+  transition: all 200 ms ease-in-out;
+}
+.Phonetic a:hover {
+  background-color: #295f4e;
 }
