@@ -46,7 +46,7 @@ export default function Search() {
       <div className="Search">
         {" "}
         <section>
-          <p> Type any word you like</p>
+          <p> Type in any word you like</p>
           <form onSubmit={searchFor}>
             <input
               type="search"
