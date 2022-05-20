@@ -51,6 +51,7 @@ export default function Search() {
             <input
               type="search"
               onChange={handleSubmit}
+              autoFocus="true"
               defaultValue="summit"
             />{" "}
           </form>
